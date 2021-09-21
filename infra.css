@@ -40,3 +40,19 @@ ul li:hover ul li{
     display: block;
 }
 
+.content-head{
+    background: url("/images/inf-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+.content-head h2{
+    color: #00A1DE;
+    text-align: center;
+    padding-top: 7%;
+    font-size: 70px;
+}
+.content-head p{
+    color: white;
+    text-align: center;
+}
