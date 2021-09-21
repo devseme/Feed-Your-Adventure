@@ -56,3 +56,39 @@ ul li:hover ul li{
     color: white;
     text-align: center;
 }
+
+em{
+    color: #00A1DE;
+}
+.content-1{
+    margin: 100px 0;
+}
+.trans h4{
+    color: black;
+    font-weight: 400;
+    text-align: center;
+    font-size: 40px;
+}
+.content-1 img{
+    float: left;
+    margin-right: 40px;
+}
+.trans{
+    color: rgb(112, 107, 107);
+    padding: 50px;
+}
+.content-2{
+    clear: both;
+    margin: 50px 0;
+    text-align: center;
+}
+.content-2 h4{
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 40px;
+}
+.special{
+    width: 500px;
+    margin: 0 30%;
+    color: rgb(112, 107, 107);
+}
