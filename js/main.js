@@ -1,4 +1,5 @@
 $("document").ready(function(){
+    $(".addTo").hide();
     $(".showOne").show();
     $(".showTwo").show();
     $(".showThree").show();
@@ -54,5 +55,11 @@ $("document").ready(function(){
         $(".hiddenFive").hide();
         $(".showFive").show();
         $(".minimizeFive").hide();
+    });
+    $("form.addTo").submit(function(event){
+        event.preventDefault();
+    });
+    $("#addTo").click(function(){
+        $("form.addTo").toggle();
     });
 });

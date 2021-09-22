@@ -19,6 +19,24 @@ h1, h3{
 h1{
     font-size: 2rem;
 }
+.addTo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vw;
+    width: 60vw;
+    margin-left: 5vw;
+}
+#nameAdd, #emailAdd{
+    height: 3vw;
+}
+.btn-success{
+    width: 20vw;
+    margin-top: 2vw;
+}
+#addTo{
+    margin-bottom: 2vw;
+    margin-left: 2vw;
+}
 /*
 html {
     scroll-padding-top: 7vw; height of sticky header 
