@@ -1,10 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 html,body{
     height: 100%;
+    font-family: sans-serif;
+}
+.site-name{
+    position: relative;
+}
+.site-name h1{
+    color:#00A1DE ;
+
 }
 nav{
     display: flex;
     justify-content: space-between;
     margin: 20px 70px;
+    position: fixed;
+    
+    
+    
 }
 ul{
     margin: 0;
@@ -44,14 +62,108 @@ ul li:hover ul li{
 }
 
 
-
-
-
-.page-wrapper{
-    min-height: 100%;
+.load{
+    animation: slide 2s;
 }
 
 
+.slider{
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    animation:slide 15s infinite;
+}
+.content{
+    color: #ffff;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.principal{
+    left: 50%;
+    top:50% ;
+    transform: translate(-50%,-50%) ;
+    position: absolute;
+    letter-spacing: 4px;
+    text-align: center;
+
+}
+.principal h3{
+    font-size: 35px;
+
+}
+.principal p{
+    font-size:15px;
+}
+@keyframes slide{
+    0%{
+        background-image: url(../images/Nairobi.jpg);
+
+    }
+    20%{
+        background-image: url(../images/Nairobi.jpg);
+        
+    }
+    20.01%{
+        background-image: url(../images/namibia-walvis\ Bay.jpg);
+        
+    }
+    40%{
+        background-image: url(../images/namibia-walvis\ Bay.jpg);
+        
+    }
+    40.01%{
+        background-image: url(../images/statue-of-liberty.jpg);
+        
+    }
+    60%{
+        background-image: url(../images/statue-of-liberty.jpg);
+        
+    }
+    60.01%{
+        background-image: url(../images/Morocco_Beaches.jpg);
+        
+    }
+    80%{
+        background-image: url(../images/Morocco_Beaches.jpg);
+        
+    }
+    80.01%{
+        background-image: url(../images/india.jpg);
+        
+    }
+    100%{
+        background-image: url(../images/india.jpg);
+        
+ 
+}
+
+}
+#about-us{
+    width: 100%;
+    text-align: center;
+    line-height: 1.5em;
+    background-color: #00A1DE;
+    color: #fff;
+    margin: 10px;
+    height: 300px;
+    
+}
+#about-us1{
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:5px;
+    margin: 5px;
+}
+.container{
+   
+}
+
+
+}
 
 
 
