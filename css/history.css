@@ -1,6 +1,17 @@
 html {
     scroll-padding-top: 7vw; /* height of sticky header */
   }
+#imgOne{
+    width: 15vw; 
+    float: left;
+    height: 22vh;
+    top: 0vw;
+}
+#imgTwo{
+    height: 10vw;
+    float: right;
+}
+
 /*.container-fluid{
     margin-top: 6vw;
 }
