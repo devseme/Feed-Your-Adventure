@@ -3,6 +3,7 @@ img{
     width: 30vw;
     float: inherit;
 }
+
 #imgOne, #imgTwo, #imgFive{
     float: left;
 }
@@ -25,10 +26,10 @@ html {
 .container-fluid{
     margin-top: 6vw;
 }
-.position{
+.fixture{
     height: 6vw;
     position: sticky;
-    top: 10vh;
+    top: 0vh;
     width: 100vw;
     font-size: 4vw;
 }*/
@@ -224,4 +225,29 @@ color:white;
 .footer-section{
     flex:1;
     padding:25px;
+}
+nav{
+    display: flex;
+}
+.rwand-links ul{
+    display: flex;
+    justify-content: space-around;
+}
+.rwand-links li{
+    list-style: none;
+    padding: 5px;
+    margin-right: 20px;
+    border-bottom: 2px solid black;
+}
+.rwand-links a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: 20px;
+}
+.rwand-links a:hover{
+    color: #00A1DE;
+}
+.rwand-links li:hover{
+    border-color: #00A1DE;
 }
