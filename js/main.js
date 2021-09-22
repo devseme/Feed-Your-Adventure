@@ -58,6 +58,7 @@ $("document").ready(function(){
     });
     $("form.addTo").submit(function(event){
         event.preventDefault();
+        alert("We have received your message. Thankyou for your contribution.")
     });
     $("#addTo").click(function(){
         $("form.addTo").toggle();
