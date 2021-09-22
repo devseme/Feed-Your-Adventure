@@ -14,7 +14,6 @@ var form=document.getElementById("contactform")
 
 //     }
 // })
-
 $(document).ready(function () {
     $("form#contactform").submit(function () {
         var eduName = $("input#name").val();
