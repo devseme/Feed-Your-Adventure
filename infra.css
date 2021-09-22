@@ -92,3 +92,59 @@ em{
     margin: 0 30%;
     color: rgb(112, 107, 107);
 }
+.content-3{
+    padding: 50px 0;
+}
+.innovation {
+    float: left;
+    width: 500px;
+    margin: 30px 50px;
+    padding-top: 30px;
+}
+.innovation h4{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+.innovation p{
+    color: rgb(112, 107, 107);
+}
+.content-4{
+    text-align: center;
+    padding: 50px;
+}
+.content-4 h4{
+    font-size: 40px;
+    font-weight: 400;
+}
+.content-4 p{
+    width: 500px;
+    margin: 0 30%;
+    color: rgb(112, 107, 107);
+    padding-bottom: 40px;
+}
+.content-5{
+    text-align: center;
+    padding: 50px;
+}
+.content-5 h4{
+    font-size: 40px;
+    font-weight: 400;
+}
+.content-5 p{
+    width: 600px;
+    margin: 0 30%;
+    color: rgb(112, 107, 107);
+    padding-bottom: 40px;
+}
+.content-6{
+    text-align: center;
+    padding: 50px;
+}
+.content-6 h4{
+    font-size: 40px;
+    font-weight: 400;
+}
+.content-6 p{
+    color: rgb(112, 107, 107);
+}
