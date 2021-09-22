@@ -14,6 +14,7 @@ section{
     font-family: 'Roboto', sans-serif;
     padding-left: 100px;
     padding-top: 80px;
+    /* background-image: url(https://blog.aifsabroad.com/wp-content/uploads/2020/05/AdobeStock_254424115-scaled.jpeg); */
     background-image: url(https://image.shutterstock.com/image-photo/silhouettes-students-graduate-caps-row-260nw-1648595998.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,19 +46,21 @@ button{
     font-size: 20px;
 }
 #edu2{
+    background-image: url(https://www.land-links.org/wp-content/uploads/2016/09/rwanda.png);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background: #00A1DE;
+    /* background: #00A1DE; */
     padding-bottom: 100px;
     padding-top: 100px;
-
 }
+
 #edu2 .bmd{
     background: #fff;
     margin: 1rem;
     padding: 2rem;
+    padding-bottom: 1rem;
     border-radius: .5rem;
     box-shadow: 0 .2rem 1rem rgba(0,0,0,.9);
     text-align: center;
@@ -79,6 +82,7 @@ button{
 .edu3heading h1{
     font-size: 4rem; 
     color: white;
+    background-color: #E5BE01;
     padding-bottom: 1rem;;
 }
 .edu3 .box-container{
@@ -140,4 +144,42 @@ button{
     font-size: 1.7rem;
     color: #333;
     padding: 1rem 0;
+}
+.edu4 .row{
+    display: flex;
+    background-color: #00A1DE;
+    border-radius: 10px 80px 10px 80px;
+    padding: 30px;
+}
+.edu4 .row .box-container .box{
+    padding: 1rem;
+}
+.edu4 .row .box-container .box img{
+    height: 15rem;
+    width: 60%;
+    padding: 0px;
+    object-fit: cover;
+    border-radius: .5rem;
+    border: 2rem solid white;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.9);
+}
+.edu4 .row .box-container .box .info{
+    padding: 2rem 0;
+    font-size: 15px;
+}
+.edu4 .row .box-container{
+    display: flex;
+}
+.edu4 .row .box-container .box .info p{
+    color: white;
+    font-weight: 400;
+}
+.edu4 .row .box-container .box .info h3{
+    color: #E5BE01;
+}
+.fas{
+    color: #E5BE01;
+}
+.edu4heading h1{
+    text-align: center;
 }
