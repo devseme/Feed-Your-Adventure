@@ -12,7 +12,9 @@ img{
 .pOne{
     clear: both;
 }
-
+h1, h3,{
+    text-decoration: underline;
+}
 /*
 html {
     scroll-padding-top: 7vw; height of sticky header 
