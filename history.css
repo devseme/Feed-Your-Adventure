@@ -1,16 +1,19 @@
 html {
     scroll-padding-top: 7vw; /* height of sticky header */
   }
-.container-fluid{
+/*.container-fluid{
     margin-top: 6vw;
 }
 .position{
     height: 6vw;
-    position: fixed;
-    top: 0vh;
+    position: sticky;
+    top: 10vh;
     width: 100vw;
     font-size: 4vw;
-}
+}*/
 .cen{
     text-align: center;
+}
+.hiddenOne, .hiddenTwo, .hiddenThree, .hiddenFour, .hiddenFive{
+    display: none;
 }
