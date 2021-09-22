@@ -1,5 +1,5 @@
 img{
-    height: 40vh;
+    height: 30vh;
     width: 30vw;
     float: inherit;
 }
@@ -12,8 +12,11 @@ img{
 .pOne{
     clear: both;
 }
-h1, h3,{
+h1, h3{
     text-decoration: underline;
+}
+h1{
+    font-size: 2rem;
 }
 /*
 html {
@@ -82,7 +85,9 @@ html {
 .minimizeOne, .minimizeTwo, .minimizeThree, .minimizeFour, .minimizeFive{
     display: none;
 }
-
+.logo-text{
+    text-decoration: none;
+}
 
 /* new css*/
 html,body{
