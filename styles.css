@@ -1,0 +1,16 @@
+html {
+    scroll-padding-top: 7vw; /* height of sticky header */
+  }
+.container-fluid{
+    margin-top: 6vw;
+}
+.position{
+    height: 6vw;
+    position: fixed;
+    top: 0vh;
+    width: 100vw;
+    font-size: 4vw;
+}
+.cen{
+    text-align: center;
+}
