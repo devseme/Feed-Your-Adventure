@@ -19,6 +19,7 @@ html {
 }
 .showOne, .showTwo, .showThree, .showFour, .showFive{
     color: blue;
+    display: none;
 }
 .showOne:hover{
     cursor: pointer;
@@ -40,6 +41,30 @@ html {
     cursor: pointer;
     text-decoration: underline;
 }
+.minimizeOne:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.minimizeTwo:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.minimizeThree:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.minimizeFour:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.minimizeFive:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.minimizeOne, .minimizeTwo, .minimizeThree, .minimizeFour, .minimizeFive{
+    display: none;
+}
+
 
 /* new css*/
 html,body{
