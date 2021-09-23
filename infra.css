@@ -29,7 +29,7 @@ nav{
 }
 
 .content-head{
-    background: url("/images/inf-1.jpg");
+    background: url("./images/inf-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 300px;
