@@ -26,8 +26,31 @@ li{
 }
 h2{
     text-align: center;
+    color: #00A1DE;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-
+.fest,.m1{
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+h4,p{
+    text-align: center;
+}
+p{
+    color: #20603d;
+}
+.text,.text1{
+    position: relative;
+    top: 70px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.text2{
+    padding-right: 20px;
+    padding-left: 20px;  
+}
 
 
 
