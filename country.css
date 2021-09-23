@@ -36,7 +36,7 @@ ul li a{
 }
 ul li a:hover{
     background-color: #00A1DE;
-    color: black;
+    color: white;
 }
 ul li ul li{
 
@@ -108,6 +108,7 @@ nav{
 .rwand-links a:hover{
     color: #00A1DE;
     justify-content: space-around;
+    color: white;
 }
 .rwand-links li:hover{
     border-color: #00A1DE;
