@@ -24,11 +24,42 @@ li{
     padding: 0 10px 0 10px;
 
 }
-h2{
+h1{
     text-align: center;
 }
-
-
+h2{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.hotel{
+   display: flex; 
+}
+h4,p {
+    text-align: center;
+}
+.text,button{
+    text-align: center;
+}
+button{
+    background-color: #1a1a1a;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+.text{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+p{
+    color:#20603d ;
+}
+.top{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
 /* footer */
 .footer{
     background-color: #20603d;
