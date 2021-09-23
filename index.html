@@ -31,7 +31,7 @@
                  </li>
                 <li><a href="#countries">Countries</a>
                    <ul>
-                       <li><a href="">Africa</a></li>
+                       <li><a href="country.html">Africa</a></li>
                        <li><a href="">America</a></li>
                        <li><a href="">Europe</a></li>
                    </ul>
@@ -157,9 +157,9 @@
                 </div>
                 <div class="footer-section contact-form">
                     <h2>Contact Us </h2>
-                    <form action="index.html" method="POST" >
-                        <input type="email" class="text-input contact-input" placeholder="Your email address...">
-                        <textarea name="message" class="text-input contact-input" placeholder="Your message here..."></textarea>
+                    <form action="index.html" method="POST" id="form" >
+                        <input type="email" class="text-input contact-input" id="email" placeholder="Your email address..." required>
+                        <textarea name="message" class="text-input contact-input" id="message" placeholder="Your message here..."></textarea>
                         <br>
                         <button type="submit" class="btn btn-big contact-btn">
                             <i class="fa fa-envelope"></i>
@@ -179,7 +179,9 @@
 
 
         </div>
-
+        <script src="./JS/jquery-3.6.0.js"></script><!--jQuery link-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script src="./JS/script.js"></script>
        
 </body>
 </html>
