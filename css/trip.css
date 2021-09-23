@@ -2,30 +2,51 @@
     box-sizing: border-box;
     /* font-family: 'Padauk', sans-serif; */
 }
-.header ul{
+
+.header ul {
     display: flex;
-}
-.header nav{
+  }
+  .header > nav {
     display: flex;
     justify-content: space-between;
-    margin: 20px 30px;
-}
-ul{
-    text-decoration: none;
+    margin: 20px 70px;
+    padding-bottom: 10px;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
     list-style: none;
-}
-nav li a{
-    color: black;
-    text-decoration: none;
-    border-style: solid;
-    background-color: gray;
-}
-li{
-    padding: 0 10px 0 10px;
-
-}
-h1{
+  }
+  
+  .header ul li {
+    background-color: gainsboro;
+    width: 350px;
+    float: left;
     text-align: center;
+    line-height: 50px;
+    margin-right: 1px;
+    position: relative;
+  }
+  ul ul {
+    position: absolute;
+    width: 100%;
+    opacity: 0.8;
+  }
+  ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
+  ul li ul li {
+    display: none;
+  }
+  ul li:hover ul li {
+    display: block;
+  }
+.header p{
+    text-align: center;
+    color: #272727;
+    font-size: xx-large;
 }
 h2{
     text-align: center;
