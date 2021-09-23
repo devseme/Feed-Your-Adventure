@@ -82,9 +82,12 @@ h2{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-#fest{
-    border-top: #FAD201;
+.museums{
+    border-bottom: #FAD201;
 }
+/* #fest1{
+    border-top: #FAD201;
+} */
 .fest,.m1{
     display: flex;
     padding-top: 5px;
