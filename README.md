@@ -10,7 +10,7 @@ EMELDA PEREZ
 This is a world web based application that showcases the world`s infrastructure,tourists attraction sites,higher learning institutions and their history per country.
 ## Setup/Installation Requirements
 * The website doesn't require any installation requirements.
-* Click on the ()to learn more about us.
+* Click on the [deployed work](https://devseme.github.io/Feed-Your-Adventure/) to learn more about us.
 ## Known Bugs
 
 ## Technologies Used
