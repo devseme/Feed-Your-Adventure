@@ -85,6 +85,8 @@ h2 {
 .park3,
 .park4 {
   display: flex;
+  /* padding-bottom: 10px;
+  padding-top: 10px; */
 }
 .park2,
 .park4 {
