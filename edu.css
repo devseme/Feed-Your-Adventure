@@ -342,3 +342,6 @@ color:white;
     flex:1;
     padding:25px;
 }
+button a{
+    text-decoration: none;
+}
